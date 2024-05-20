@@ -1,6 +1,9 @@
 #!/bin/bash
 
-# Adapted pashare.sh from:
+# pashare.sh - An easy to use tool for sharing audio devices over the network.
+# https://github.com/GrubRescue9827/pashare/
+#
+# Adapted from:
 # https://superuser.com/questions/605445/how-to-stream-my-gnu-linux-audio-output-to-android-devices-over-wi-fi
 
 show_help() {
