@@ -17,7 +17,7 @@ Debian/Ubuntu: `sudo apt install -y bash netcat-openbsd pulseaudio-utils`
 
 ### Optional: Add desktop icons
 1. Download `startpashare.desktop` and `stoppashare.desktop` to your desktop
-2. Open the file with any text editor of your choice
+2. Open both files with any text editor of your choice
 3. If your install is NOT in the default location, change `~/Documents/scripts/pashare/pashare.sh` under `exec=` to the location of the script.
 4. If you don't want the terminal to stay open after clicking the pashare icon, remove ` ;  read -p '\\''Press any key to continue...'\\'''` from the `exec=` line. Be warned that this means you won't be able to read any error messages that appear.
 
