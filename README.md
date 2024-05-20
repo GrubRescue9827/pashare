@@ -22,6 +22,18 @@ Debian/Ubuntu: `sudo apt install -y bash netcat-openbsd pulseaudio-utils`
 4. If you don't want the terminal to stay open after clicking the pashare icon, remove ` ;  read -p '\\''Press any key to continue...'\\'''` from the `exec=` line. Be warned that this means you won't be able to read any error messages that appear.
 
 ### Using an Android device as a client
+1. Download [SimpleProtocolPlayer](https://github.com/kaytat/SimpleProtocolPlayer) from the [Google Play Store.](https://play.google.com/store/apps/details?id=com.kaytat.simpleprotocolplayer)
+2. Make sure both devices are on the same network
+3. Type the IP address into the `IP Address/hostname` field. Domain names do NOT work.
+4. Type the port into the `Audio Port` field. Default is `8000`
+5. Configure the settings on the client to your liking. I find these settings work well:
+    * Sample Rate: `48000hz`
+    * Mono/Stereo: `Stereo`
+    * Buffer Size: `16ms`
+    * Enable Network Retries: [x]
+    * Performance Mode: [x]
+    * Min AudioTrack buffer [x]
+6. Tap the start button at the bottom of the page. Be aware that removing or adding audio devices on the android client causes the app to crash.
 
 
 ### Troubleshooting
