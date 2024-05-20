@@ -3,9 +3,6 @@
 # Adapted pashare.sh from:
 # https://superuser.com/questions/605445/how-to-stream-my-gnu-linux-audio-output-to-android-devices-over-wi-fi
 
-
-PORT=8000
-
 show_help() {
     echo "Usage: $0 [OPTION]..."
     echo "Share a specified Pipewire/Pulseaudio device over TCP/IP."
