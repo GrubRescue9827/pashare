@@ -1,0 +1,17 @@
+[Desktop Entry]
+Comment[en_US]=Stream audio over the network!
+Comment=Stream audio over the network!
+Exec=bash -c '~/Documents/scripts/pashare/pashare.sh ;  read -p '\\''Press any key to continue...'\\'''
+GenericName[en_US]=
+GenericName=
+Icon=audio-volume-high
+MimeType=
+Name[en_US]=Start PAShare
+Name=Start PAShare
+Path=
+StartupNotify=true
+Terminal=true
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

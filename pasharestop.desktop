@@ -1,0 +1,17 @@
+[Desktop Entry]
+Comment[en_US]=Kills PAShare
+Comment=Kills PAShare
+Exec=bash -c '~/Documents/scripts/pashare/pashare.sh -k ;  read -p '\\''Press any key to continue...'\\'''
+GenericName[en_US]=
+GenericName=
+Icon=audio-volume-muted
+MimeType=
+Name[en_US]=Stop PAShare
+Name=Stop PAShare
+Path=
+StartupNotify=true
+Terminal=true
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
